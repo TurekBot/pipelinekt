@@ -59,7 +59,7 @@ systemProp.github.packages.token=yourtoken
     }
 
     dependencies {
-        implementation("com.code42.jenkins:pipelinekt-dsl:$version")
+        implementation("com.code42:pipelinekt-dsl:$version")
         implementation(kotlin("stdlib-jdk8", kotlinVersion))
         testImplementation("org.jetbrains.kotlin:kotlin-test")
         testImplementation("org.jetbrains.kotlin:kotlintest-junit")
