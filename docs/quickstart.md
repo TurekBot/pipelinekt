@@ -6,6 +6,9 @@ Please see [the examples subproject](https://github.com/code42/pipelinekt/tree/m
 Pipelinekt is made to integrate with gradle, so it can run anywhere that the jvm exists without additional infrastructure needed for dependency management or having
 to rely on loading new classes into the jenkins runtime.
 
+> [!IMPORTANT]  
+> The pipelinekt artifacts are published via [GitHub Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#authenticating-to-github-packages); that's why you need an access token.
+
 0. create a github access token that can read from packages, add the configuration to `~/.gradle/gradle.properties`
 
 ```
