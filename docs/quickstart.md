@@ -23,7 +23,7 @@ systemProp.github.packages.token=yourtoken
 
     ```kotlin
     val kotlinVersion = "1.3.60"
-    val version = "0.11.1"
+    val version = "0.21.5"
  
     plugins {
         id("org.jetbrains.kotlin.jvm").version("1.3.60")
